@@ -1,0 +1,372 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+@font-face {
+  font-family: britania;
+  src: url("../assets/fonts/VictorianBritania.ttf");
+}
+
+.hero-title {
+  font-family: britania;
+  font-size: 60px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 27px 94px;
+  align-items: center;
+  background-color: #2d1001;
+}
+
+.hero-desc {
+  max-width: 460px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 26px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-menu li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn-login {
+  background-color: #c49150;
+  color: #2d1001;
+  border: none;
+  font-size: 18px;
+  padding: 8px 30px;
+  border-radius: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hero-title-container,
+.hero-title-container2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-slog {
+  font-size: 42px;
+  color: #603601;
+  font-weight: bold;
+  font-family: britania;
+  padding: 20px 0;
+}
+
+.product-slog2 {
+  letter-spacing: 4px;
+}
+
+.hero-title2 {
+  color: #c49150 !important;
+  font-family: britania;
+  font-size: 60px;
+}
+
+.cta-btn {
+  background-color: #c49150;
+  color: #2d1001;
+  border: none;
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 12px 30px;
+  border-radius: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 40%;
+  text-align: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2d1001;
+}
+
+.btn-register {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #c49150;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px 30px;
+  border-radius: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-title {
+  font-size: 18px;
+  font-weight: semi-bold;
+}
+
+.btn-navbar {
+  display: flex;
+  gap: 18px;
+}
+
+.nav-menu-container {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.hero {
+  height: calc(100vh - 152px);
+  background-color: #2d1001;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  margin-left: 125px;
+  margin-bottom: 50px;
+  max-width: 600px;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
+.cta p {
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 60px;
+}
+
+.product-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card-img-top {
+  padding: 20px;
+}
+
+.action-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-card-action {
+  background-color: #e1e1e1;
+  color: #2d1001;
+  border: none;
+  font-size: 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 30px;
+}
+
+.heart {
+  font-size: 1rem;
+  color: #d2d2d2;
+}
+
+.product-container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  /* flex-wrap: wrap; */
+  padding: 20px;
+}
+
+.product-filter {
+  margin-left: 190px;
+  border: 2px solid #2d1001;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+  width: 180px;
+  text-align: center;
+}
+
+.card {
+  /* border: 1px solid #d2d2d2; */
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  gap: 20px;
+}
+
+.card:hover {
+  background-color: #c49150;
+  opacity: 0.5;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card-img {
+  height: 200px;
+}
+
+.card-price {
+  color: #d2d2d2;
+  padding: 10px 0;
+}
+
+.btn-card-action {
+  color: black;
+  opacity: 0.5;
+}
+
+.slideshow-container {
+  position: relative;
+  padding: 140px 0;
+  background-color: #1c0a00;
+  margin-top: 120px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.footer-container {
+  background-color: #2d1001;
+}
+
+.footer-item-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 12px;
+  color: #ffffff;
+}
+
+.link-title,
+.office-title,
+.sosmed-title {
+  font-weight: bold;
+}
+
+.list-link {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.sosmed-menu {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.sosmed-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sosmed-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.footer-desc {
+  max-width: 350px;
+  padding: 20px 0;
+}
+.office-text {
+  max-width: 350px;
+  margin-top: 20px;
+}
+
+.link-item {
+  color: #fff;
+  text-decoration: none;
+}
